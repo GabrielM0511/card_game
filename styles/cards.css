@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*
+ Filename:    cards.css
+ Author:      Michael Grzesina (grzesinam)
+ Course:      CWEB 190 (Internet Programming/Web Applications 1)
+ Instructor:  Michael Grzesina
+ Date:        Winter 2023
+ Purpose:     Assignment #1 style sheet
+ */
+
+#tblStats td, #tblStats th {
+    text-align: center;
+}

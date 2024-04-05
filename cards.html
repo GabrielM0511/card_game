@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--
+        Filename: cards.html
+        Author:   Gabriel Morales (000466307)
+        Date:     Winter 2023
+    -->
+    <title>Assignment #1 - Card Dealer</title>
+    <link rel="stylesheet" href="styles/cards.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Card Dealer</h1>
+
+    <p><strong>Click on either card to shuffle and deal:</strong></p>
+    <!-- Card Images -->
+    <p>
+        <img src="images/blank.png" alt="Image of card" id="shuffleSet1" onclick="shuffle()" />
+        <img src="images/blank.png" alt="Image of card" id="shuffleSet2" onclick="shuffle()" />
+    </p>
+
+    <!-- Current Points -->
+    <p id="pPoints"><strong>You scored 0 points</strong><br /></p>
+    <!-- Total Points -->
+    <p id="pTotalPoints"><strong>Your total for this session is 0 points!</strong><br /></p>
+    <!-- All 10 scores -->
+    <p id="pPreviousTenDeals">Your previous 10 point scores were: 0,0,0,0,0,0,0,0,0,0</p>
+    
+
+    <h2>Card Statistics:</h2>
+    <!-- Table for Frequencies and Percentage -->
+    <p id="pTotalDeals">My card statistics for a total of 0 deals:</p>
+    <table id="tblStats">
+        <tr>
+            <th>Card</th>
+            <th>Frequency</th>
+            <th>Percent of Total Cards</th>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td id="freq0">0</td>
+            <td id="perc0">0%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td id="freq1">0</td>
+            <td id="perc1">0%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td id="freq2">0</td>
+            <td id="perc2">0%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td id="freq3">0</td>
+            <td id="perc3">0%</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td id="freq4">0</td>
+            <td id="perc4">0%</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td id="freq5">0</td>
+            <td id="perc5">0%</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td id="freq6">0</td>
+            <td id="perc6">0%</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td id="freq7">0</td>
+            <td id="perc7">0%</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td id="freq8">0</td>
+            <td id="perc8">0%</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td id="freq9">0</td>
+            <td id="perc9">0%</td>
+        </tr>
+        <tr>
+            <td>Q</td>
+            <td id="freq10">0</td>
+            <td id="perc10">0%</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td id="freq11">0</td>
+            <td id="perc11">0%</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td id="freq12">0</td>
+            <td id="perc12">0%</td>
+        </tr>
+    </table>
+</body>
+
+</html>
