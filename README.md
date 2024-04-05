@@ -1,3 +1,3 @@
 # card_game
 Simple Card Game
-[Watch a Demo](demo.mp4)
+[Watch a Demo](Demo.mp4)
