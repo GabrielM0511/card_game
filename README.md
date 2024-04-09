@@ -1,2 +1,2 @@
-# card_game
-Simple Card Game
+# Card Game
+
