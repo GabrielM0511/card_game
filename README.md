@@ -1,6 +1,5 @@
 # Card Game
 
-## Card Dealer Game
 This simple web-based game allows users to shuffle and deal cards by clicking on the displayed card images. The game interface consists of two card images that serve as buttons for shuffling and dealing. Users can click on either card image to shuffle the deck and deal a card.
 
 ### Features:
