@@ -12,4 +12,6 @@ View your current score and total points accumulated during the session.
 Track card statistics to observe the frequency and percentage of each card value.
 Enjoy playing the Card Dealer game!
 
+***
+### Demo
 ![](images/demo.gif)
